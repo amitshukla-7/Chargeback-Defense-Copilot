@@ -1,0 +1,232 @@
+{
+  "cost_fn_inr": 250,
+  "cost_fp_inr": 15,
+  "optimal_threshold": 0.15,
+  "test_set_min_cost": 955,
+  "contest_everything_cost": 2340,
+  "contest_nothing_cost": 36000,
+  "savings_vs_contest_everything": 1385,
+  "savings_vs_contest_nothing": 35045,
+  "optimal_metrics": {
+    "threshold": 0.15,
+    "total_cost_inr": 955,
+    "tp": 143,
+    "tn": 109,
+    "fp": 47,
+    "fn": 1,
+    "precision": 0.7526,
+    "recall": 0.9931,
+    "f1": 0.8563
+  },
+  "threshold_curve": [
+    {
+      "threshold": 0.05,
+      "total_cost_inr": 1665,
+      "tp": 144,
+      "tn": 45,
+      "fp": 111,
+      "fn": 0,
+      "precision": 0.5647,
+      "recall": 1.0,
+      "f1": 0.7218
+    },
+    {
+      "threshold": 0.1,
+      "total_cost_inr": 1255,
+      "tp": 143,
+      "tn": 89,
+      "fp": 67,
+      "fn": 1,
+      "precision": 0.681,
+      "recall": 0.9931,
+      "f1": 0.8079
+    },
+    {
+      "threshold": 0.15,
+      "total_cost_inr": 955,
+      "tp": 143,
+      "tn": 109,
+      "fp": 47,
+      "fn": 1,
+      "precision": 0.7526,
+      "recall": 0.9931,
+      "f1": 0.8563
+    },
+    {
+      "threshold": 0.2,
+      "total_cost_inr": 1145,
+      "tp": 142,
+      "tn": 113,
+      "fp": 43,
+      "fn": 2,
+      "precision": 0.7676,
+      "recall": 0.9861,
+      "f1": 0.8632
+    },
+    {
+      "threshold": 0.25,
+      "total_cost_inr": 1570,
+      "tp": 140,
+      "tn": 118,
+      "fp": 38,
+      "fn": 4,
+      "precision": 0.7865,
+      "recall": 0.9722,
+      "f1": 0.8696
+    },
+    {
+      "threshold": 0.3,
+      "total_cost_inr": 1760,
+      "tp": 139,
+      "tn": 122,
+      "fp": 34,
+      "fn": 5,
+      "precision": 0.8035,
+      "recall": 0.9653,
+      "f1": 0.877
+    },
+    {
+      "threshold": 0.35,
+      "total_cost_inr": 2420,
+      "tp": 136,
+      "tn": 128,
+      "fp": 28,
+      "fn": 8,
+      "precision": 0.8293,
+      "recall": 0.9444,
+      "f1": 0.8831
+    },
+    {
+      "threshold": 0.4,
+      "total_cost_inr": 2375,
+      "tp": 136,
+      "tn": 131,
+      "fp": 25,
+      "fn": 8,
+      "precision": 0.8447,
+      "recall": 0.9444,
+      "f1": 0.8918
+    },
+    {
+      "threshold": 0.45,
+      "total_cost_inr": 2360,
+      "tp": 136,
+      "tn": 132,
+      "fp": 24,
+      "fn": 8,
+      "precision": 0.85,
+      "recall": 0.9444,
+      "f1": 0.8947
+    },
+    {
+      "threshold": 0.5,
+      "total_cost_inr": 3065,
+      "tp": 133,
+      "tn": 135,
+      "fp": 21,
+      "fn": 11,
+      "precision": 0.8636,
+      "recall": 0.9236,
+      "f1": 0.8926
+    },
+    {
+      "threshold": 0.55,
+      "total_cost_inr": 3800,
+      "tp": 130,
+      "tn": 136,
+      "fp": 20,
+      "fn": 14,
+      "precision": 0.8667,
+      "recall": 0.9028,
+      "f1": 0.8844
+    },
+    {
+      "threshold": 0.6,
+      "total_cost_inr": 4740,
+      "tp": 126,
+      "tn": 140,
+      "fp": 16,
+      "fn": 18,
+      "precision": 0.8873,
+      "recall": 0.875,
+      "f1": 0.8811
+    },
+    {
+      "threshold": 0.65,
+      "total_cost_inr": 5165,
+      "tp": 124,
+      "tn": 145,
+      "fp": 11,
+      "fn": 20,
+      "precision": 0.9185,
+      "recall": 0.8611,
+      "f1": 0.8889
+    },
+    {
+      "threshold": 0.7,
+      "total_cost_inr": 6135,
+      "tp": 120,
+      "tn": 147,
+      "fp": 9,
+      "fn": 24,
+      "precision": 0.9302,
+      "recall": 0.8333,
+      "f1": 0.8791
+    },
+    {
+      "threshold": 0.75,
+      "total_cost_inr": 6620,
+      "tp": 118,
+      "tn": 148,
+      "fp": 8,
+      "fn": 26,
+      "precision": 0.9365,
+      "recall": 0.8194,
+      "f1": 0.8741
+    },
+    {
+      "threshold": 0.8,
+      "total_cost_inr": 7810,
+      "tp": 113,
+      "tn": 152,
+      "fp": 4,
+      "fn": 31,
+      "precision": 0.9658,
+      "recall": 0.7847,
+      "f1": 0.8659
+    },
+    {
+      "threshold": 0.85,
+      "total_cost_inr": 10795,
+      "tp": 101,
+      "tn": 153,
+      "fp": 3,
+      "fn": 43,
+      "precision": 0.9712,
+      "recall": 0.7014,
+      "f1": 0.8145
+    },
+    {
+      "threshold": 0.9,
+      "total_cost_inr": 13265,
+      "tp": 91,
+      "tn": 155,
+      "fp": 1,
+      "fn": 53,
+      "precision": 0.9891,
+      "recall": 0.6319,
+      "f1": 0.7712
+    },
+    {
+      "threshold": 0.95,
+      "total_cost_inr": 19500,
+      "tp": 66,
+      "tn": 156,
+      "fp": 0,
+      "fn": 78,
+      "precision": 1.0,
+      "recall": 0.4583,
+      "f1": 0.6286
+    }
+  ]
+}
